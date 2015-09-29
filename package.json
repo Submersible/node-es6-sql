@@ -1,0 +1,29 @@
+{
+  "name": "es6-sql",
+  "version": "0.0.0",
+  "description": "Write SQL with SQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "foobar.com"
+  },
+  "keywords": [
+    "sql",
+    "dsl",
+    "es6",
+    "interpolation",
+    "postgres"
+  ],
+  "author": "Ryan Munro <ryan@submersible.io>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "sql-parser": "^0.5.0"
+  },
+  "devDependencies": {
+    "tap": "^2.0.0"
+  }
+}
