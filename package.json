@@ -1,6 +1,6 @@
 {
   "name": "es6-sql",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Write SQL with SQL",
   "main": "index.js",
   "scripts": {
@@ -20,10 +20,12 @@
   "author": "Ryan Munro <ryan@submersible.io>",
   "license": "MIT",
   "dependencies": {
+    "immutable": "^3.7.5",
     "lodash": "^3.10.1",
     "sql-parser": "^0.5.0"
   },
   "devDependencies": {
-    "tap": "^2.0.0"
+    "tap": "^2.0.0",
+    "dedent": "^0.4.0"
   }
 }
